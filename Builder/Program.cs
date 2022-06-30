@@ -6,16 +6,29 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            ProductDirector director = new ProductDirector();
-            var builder = new NewCustomerProductBuilder();
-            director.GenerateProduct(builder);
-            var model = builder.GetModel();
-            Console.WriteLine(model.Id);
-            Console.WriteLine(model.ProductName);
-            Console.WriteLine(model.CategoryName);
-            Console.WriteLine(model.UnitPrice);
-            Console.WriteLine(model.DiscountApplied);
-            Console.WriteLine(model.DiscountedPrice);
+            ProductDirector director1 = new ProductDirector();
+            var builder1 = new OldCustomerProductBuilder();
+            director1.GenerateProduct(builder1);
+            var model1 = builder1.GetModel();
+            Console.WriteLine(model1.Id);
+            Console.WriteLine(model1.ProductName);
+            Console.WriteLine(model1.CategoryName);
+            Console.WriteLine(model1.UnitPrice);
+            Console.WriteLine(model1.DiscountApplied);
+            Console.WriteLine(model1.DiscountedPrice);
+
+            //Console.WriteLine("----------------------------");
+
+            //ProductDirector director2 = new ProductDirector();
+            //var builder2 = new OldCustomerProductBuilder();
+            //director2.GenerateProduct(builder2);
+            //var model2 = builder1.GetModel();
+            //Console.WriteLine(model2.Id);
+            //Console.WriteLine(model2.ProductName);
+            //Console.WriteLine(model2.CategoryName);
+            //Console.WriteLine(model2.UnitPrice);
+            //Console.WriteLine(model2.DiscountApplied);
+            //Console.WriteLine(model2.DiscountedPrice);
             Console.ReadLine();
         }
     }
