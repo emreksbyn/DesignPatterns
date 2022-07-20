@@ -27,13 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{5274E4E2-BACC-4795-890F-09A4A2E13ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{7C67C844-3884-43F0-AB76-901F60B8072D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{7C67C844-3884-43F0-AB76-901F60B8072D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{F01CE3FC-65C3-4739-949E-70BD0A9AFB38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{F01CE3FC-65C3-4739-949E-70BD0A9AFB38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{0B435AF6-1EA5-46C7-9214-DF0830E00342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{0B435AF6-1EA5-46C7-9214-DF0830E00342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{28987AD0-D159-493F-AEB7-655F3ECDED9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{28987AD0-D159-493F-AEB7-655F3ECDED9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{28987AD0-D159-493F-AEB7-655F3ECDED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28987AD0-D159-493F-AEB7-655F3ECDED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28987AD0-D159-493F-AEB7-655F3ECDED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
