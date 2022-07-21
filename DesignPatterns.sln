@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{28987AD0-D159-493F-AEB7-655F3ECDED9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{4A0ECB41-A96E-4A44-AC95-9E2AD6E7153E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "NullObject\NullObject.csproj", "{9257C893-FFCE-4457-BB32-34E96BC43DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject", "NullObject\NullObject.csproj", "{9257C893-FFCE-4457-BB32-34E96BC43DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{636D509B-9B8A-4376-80C5-F8BB8288D9DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{9257C893-FFCE-4457-BB32-34E96BC43DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9257C893-FFCE-4457-BB32-34E96BC43DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9257C893-FFCE-4457-BB32-34E96BC43DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636D509B-9B8A-4376-80C5-F8BB8288D9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636D509B-9B8A-4376-80C5-F8BB8288D9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636D509B-9B8A-4376-80C5-F8BB8288D9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636D509B-9B8A-4376-80C5-F8BB8288D9DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
