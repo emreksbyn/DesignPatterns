@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{FB9554CA-49AA-4C5E-AF60-8E8AFFD1286D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{3B7FDDA4-9CEA-435E-9BE3-55E30D1A9A76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{FB9554CA-49AA-4C5E-AF60-8E8AFFD1286D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB9554CA-49AA-4C5E-AF60-8E8AFFD1286D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB9554CA-49AA-4C5E-AF60-8E8AFFD1286D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7FDDA4-9CEA-435E-9BE3-55E30D1A9A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7FDDA4-9CEA-435E-9BE3-55E30D1A9A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7FDDA4-9CEA-435E-9BE3-55E30D1A9A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7FDDA4-9CEA-435E-9BE3-55E30D1A9A76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
